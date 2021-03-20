@@ -44,12 +44,12 @@ public class Main {
                         array = subList;
                         i = 0;
                     }
+                } else {
+                    i ++; 
                 }
-                else
-                    i ++;
+            } else {
+                    break;
             }
-            else
-                break;
         }
         String lastString = String.join("", array);
         System.out.println(lastString);

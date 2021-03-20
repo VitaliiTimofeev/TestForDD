@@ -38,8 +38,7 @@ public class Main {
                     if (subList.size() == 0) {
                         array = newArray;
                         i = 0;
-                    }
-                    else {
+                    } else {
                         subList.addAll(newArray);
                         array = subList;
                         i = 0;
